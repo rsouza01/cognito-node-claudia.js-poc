@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "claudia create --region $AWS_REGION  --api-module api --name $npm_package_name"
+    "create-deploy": "claudia create --region $AWS_REGION  --api-module api --name $npm_package_name",
+    "update-api": "claudia update --region AWS_REGION",
+    "destroy-api": "claudia destroy --region AWS_REGION"
   },
   "author": "",
   "license": "MIT",
