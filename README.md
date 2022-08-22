@@ -14,7 +14,7 @@ npm install
 
 ## Reference
 
-- https://medium.com/free-code-camp/how-to-secure-microservices-on-aws-with-cognito-api-gateway-and-lambda-4bfaa7a6583c
+- https://www.freecodecamp.org/news/aws-cognito-authentication-with-serverless-and-nodejs/
 
 ## Show your support
 

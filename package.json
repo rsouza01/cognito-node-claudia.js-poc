@@ -1,0 +1,17 @@
+{
+  "name": "auth-api-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sls:local": "serverless offline",
+    "sls:deploy": "serverless deploy",
+    "sls:package": "serverless package",
+    "sls:undeploy": "serverless remove"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1199.0"
+  }
+}
