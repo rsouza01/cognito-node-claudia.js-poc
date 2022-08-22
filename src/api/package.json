@@ -1,0 +1,14 @@
+{
+  "name": "auth-api-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "claudia create --region $AWS_REGION  --api-module api --name $npm_package_name"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-api-builder": "^4.1.2"
+  }
+}
